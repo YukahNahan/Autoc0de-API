@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Booking","As a user I want to test the POST operation on authentication","SUCCESS","2020-11-09T15:36:09.108-03:00[America/Buenos_Aires]","0.0","5.76"
+"Booking","As a user I want to test the POST operation on bookings","SUCCESS","2020-11-09T15:36:14.884-03:00[America/Buenos_Aires]","0.0","1.35"
+"Booking","As a user I want to get all the bookings","SUCCESS","2020-11-09T15:36:16.248-03:00[America/Buenos_Aires]","0.0","1.38"
+"Booking","As a user I want to delete a booking","SUCCESS","2020-11-09T15:36:17.633-03:00[America/Buenos_Aires]","0.0","1.31"
