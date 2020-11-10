@@ -9,7 +9,7 @@
 * serenity.restassured
 * Written in Java
 
-##API Automation Scenarios covered
+## API Automation Scenarios covered
 * GET, POST, PUT, PATCH and DELETE requests. 
  
 ## Setup:
