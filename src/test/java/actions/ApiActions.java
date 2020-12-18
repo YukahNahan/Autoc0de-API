@@ -54,4 +54,11 @@ public class ApiActions {
         response = request.when().delete(Constants.HOST +endpoint+"/"+id);
     }
 
+    public void initialisePUTCall(String bookingEndpoint, String jsonPayLoad, int id) throws IOException {
+        String jsonBody = commonCode.generateStringFromResource(System.getProperty("user.dir")+jsonPayLoad);
+        request.header("Content-Type","application/json");
+        request.given().auth().preemptive().basic("admin", "password123");
+        request.body(jsonBody);
+        response = request.when().put(Constants.HOST +bookingEndpoint+"/"+id);
+    }
 }

@@ -48,4 +48,16 @@ apiActions.initialiseGETCall(Constants.BOOKING_ENDPOINT);
     public void iTriggerDELETECallOnBookingNumber(int id) throws IOException{
 apiActions.initialiseDELETECall(Constants.BOOKING_ENDPOINT, id);
     }
+
+    @When("I trigger GET call with the booking id {int}")
+    public void iTriggerGETCallWithTheBookingId(int bookingid) {
+        apiActions.initialiseGETCall(Constants.BOOKING_ENDPOINT+"/"+bookingid);
+
+    }
+
+    @When("I trigger PUT call to update the booking {int}")
+    public void iTriggerPUTCallToUpdateANewBooking(int id) throws IOException {
+        apiActions.initialisePUTCall(Constants.BOOKING_ENDPOINT
+                , "\\testdata\\UpdateBookingPayload.json", id);
+    }
 }

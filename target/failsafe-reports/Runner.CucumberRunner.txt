@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: Runner.CucumberRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.096 sec - in Runner.CucumberRunner
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 16.491 sec <<< FAILURE! - in Runner.CucumberRunner
+As a user I want to get a booking by id(Booking)  Time elapsed: 1.246 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+
+As a user I want to test the PUT operation to edit a booking(Booking)  Time elapsed: 1.32 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<405> but was:<200>
+

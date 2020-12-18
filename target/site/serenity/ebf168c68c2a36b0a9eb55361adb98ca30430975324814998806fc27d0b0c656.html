@@ -156,7 +156,7 @@
         <span class="breadcrumbs"><a href="index.html">Home</a>
                 > Feature 
                 > <span
-                    class="truncate-60">Booking (Passing Tests)</span>
+                    class="truncate-60">Booking (Failing Tests)</span>
         </span>
         </div>
         <div class="rightbg"></div>
@@ -185,20 +185,23 @@
         <div class="middlb">
             <div class="table">
 
-                <h2><i class='fa fa-tags'></i> Feature: Booking (Passing Tests)</h2>
+                <h2><i class='fa fa-tags'></i> Feature: Booking (Failing Tests)</h2>
                 <table class='overview'>
                     <tr>
                         <td width="375px" valign="top">
                             <div class="test-count-summary">
                                 <div>
 
-                                4 passing tests
-                                    across 4 scenarios
+                                2 failing tests
+                                    across 2 scenarios
 
                                      |
-                                        <a href="cabecbfb445704a2a5678405239fc60180010b8da530e785191bd0023c5a0948.csv" title="Download CSV"> <i class="fa fa-download"
+                                        <a href="facb1083f96f9aa27de98579cc04978eb81194ba128a6a61c59de9a06edac703.csv" title="Download CSV"> <i class="fa fa-download"
                                                                                         title="Download CSV"></i></a>
 
+                                    <p class="report-info"><i class="fas fa-info-circle"></i> Note that results include
+                                        data-driven scenarios containing failing tests ,
+                                        which may also contain results other than failing tests .</p>
 
 
 
@@ -229,10 +232,10 @@
                                                             </div>
                                                             <script>
 
-                                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 4}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 2}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -285,12 +288,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="18cef1f8a07aacd65070ce92288fe0087607fdf04fc2b257195e4add32921ee8.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                     </td>
-                                                                <td class="automated-stats">4</td>
-                                                                <td class="automated-stats">100%</td>
+                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -314,17 +316,18 @@
                                                                 <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
-                                                                            <td colspan="3"><i
-                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                            <td colspan="3"><a
+                                                                                    href="9359d39b2d8732f1483fc4099023902ca4fc3eb3817ecd45cf009e422b29565d.html"><i
+                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                             </td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
-                                                                </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="ebf168c68c2a36b0a9eb55361adb98ca30430975324814998806fc27d0b0c656.html"><i
+                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
+                                                                    </td>
+                                                                <td class="automated-stats">2</td>
+                                                                <td class="automated-stats">100%</td>
                                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -342,7 +345,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">4</td>
+                                                                <td class="automated-stats">2</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -350,6 +353,43 @@
                                                     </div>
                                                 </div>
 
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <h3>Test Failure Overview</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <h4>Most Frequent Failures</h4>
+                                                        <table class="table">
+                                                            <tbody>
+                                                            <tr>
+                                                                <td class="failure-color top-list-title">
+                                                                    <a href="a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> Assertion error</a>
+                                                                </td>
+                                                                <td><span
+                                                                        class="badge failure-badge">2</span>
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <h4>Most Unstable Features</h4>
+                                                        <table class="table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="failure-color top-list-title"><a
+                                                                            href="698a17795059cb3fcccf8519544a2ed97661232922d67530951b4cc4f0a3ac96.html">Booking</a>
+                                                                    </td>
+                                                                    <td><span
+                                                                            class="badge failure-badge">100%</span>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
 
                                             </div>
                                         </div>
@@ -371,57 +411,31 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result SUCCESS">
+                                                <tr class="scenario-result FAILURE">
                                                     <td>
                                                             <a href="94545cad9e10c8ed06d9135c4a0911e9866c58180027e70c7fa0320c200dcfff.html">Booking</a>
                                                     </td>
                                                     <td>
-                                                        <a href="f3a38b6e3a5525aba744be37de64a38e8916108d66f1cd39f2a6b7ef41a32bd9.html">As a user I want to test the POST operation on authentication</a>
-                                                    </td>
-                                                    <td>3</td>
-                                                    <td>15:19:15</td>
-                                                    <td>5s 420ms</td>
-                                                    <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                            style="display:none">SUCCESS</span></td>
-                                                </tr>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="94545cad9e10c8ed06d9135c4a0911e9866c58180027e70c7fa0320c200dcfff.html">Booking</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="200afe5dad4e00932f8cca211b1d0ea1d86105cd9bc2af3703796469c24767e4.html">As a user I want to test the POST operation on bookings</a>
-                                                    </td>
-                                                    <td>3</td>
-                                                    <td>15:19:21</td>
-                                                    <td>1s 447ms</td>
-                                                    <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                            style="display:none">SUCCESS</span></td>
-                                                </tr>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="94545cad9e10c8ed06d9135c4a0911e9866c58180027e70c7fa0320c200dcfff.html">Booking</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="9655e4781ee922d0db400a17c7484241605ccecb8eefe33835b0fe58f5bf48c2.html">As a user I want to get all the bookings</a>
+                                                        <a href="3a841b32991aae986fcc306d964e26b0c2cf7fbe5a3eb7ab4a623a286fb456c5.html">As a user I want to get a booking by id</a>
                                                     </td>
                                                     <td>2</td>
-                                                    <td>15:19:22</td>
-                                                    <td>1s 392ms</td>
-                                                    <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                            style="display:none">SUCCESS</span></td>
+                                                    <td>15:19:25</td>
+                                                    <td>1s 274ms</td>
+                                                    <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                            style="display:none">FAILURE</span></td>
                                                 </tr>
-                                                <tr class="scenario-result SUCCESS">
+                                                <tr class="scenario-result FAILURE">
                                                     <td>
                                                             <a href="94545cad9e10c8ed06d9135c4a0911e9866c58180027e70c7fa0320c200dcfff.html">Booking</a>
                                                     </td>
                                                     <td>
-                                                        <a href="c46157e74d09fd22958ebc25451c8c28b40a9fc6a5b227bf71a256539323881e.html">As a user I want to delete a booking</a>
+                                                        <a href="422542b1272869b1a4bdea5639c6747d0f43cc977f8b997d7ea7ac346aa0eae1.html">As a user I want to test the PUT operation to edit a booking</a>
                                                     </td>
-                                                    <td>2</td>
-                                                    <td>15:19:24</td>
-                                                    <td>1s 310ms</td>
-                                                    <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                            style="display:none">SUCCESS</span></td>
+                                                    <td>3</td>
+                                                    <td>15:19:26</td>
+                                                    <td>1s 331ms</td>
+                                                    <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                            style="display:none">FAILURE</span></td>
                                                 </tr>
                                                 </tbody>
                                             </table>

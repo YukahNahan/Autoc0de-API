@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Booking" skipped="0" tests="4" time="9.8" timestamp="2020-11-09 03:36:09"><testcase name="As a user I want to test the POST operation on authentication"/><testcase name="As a user I want to test the POST operation on bookings"/><testcase name="As a user I want to get all the bookings"/><testcase name="As a user I want to delete a booking"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Booking" skipped="0" tests="6" time="12.17" timestamp="2020-12-18 03:19:15"><testcase name="As a user I want to test the POST operation on authentication"/><testcase name="As a user I want to test the POST operation on bookings"/><testcase name="As a user I want to get all the bookings"/><testcase name="As a user I want to delete a booking"/><testcase name="As a user I want to get a booking by id"><failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">expected:&lt;404&gt; but was:&lt;200&gt;</failure><system-err>expected:&lt;404&gt; but was:&lt;200&gt;&#13;
+actions.ApiActions.assertStatusCode(ApiActions.java:35)&#13;
+steps.ApiSteps.iSeeTheStatusCodeAs(ApiSteps.java:27)&#13;
+✽.I see the status code as 200(file:src/test/resources/features/ApiRequests.feature:24)&#13;
+</system-err></testcase><testcase name="As a user I want to test the PUT operation to edit a booking"><failure message="expected:&lt;405&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">expected:&lt;405&gt; but was:&lt;200&gt;</failure><system-err>expected:&lt;405&gt; but was:&lt;200&gt;&#13;
+actions.ApiActions.assertStatusCode(ApiActions.java:35)&#13;
+steps.ApiSteps.iSeeTheStatusCodeAs(ApiSteps.java:27)&#13;
+✽.I see the status code as 200(file:src/test/resources/features/ApiRequests.feature:29)&#13;
+</system-err></testcase></testsuite>

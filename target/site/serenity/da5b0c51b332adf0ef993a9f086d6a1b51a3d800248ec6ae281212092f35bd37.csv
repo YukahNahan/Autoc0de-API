@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Booking","As a user I want to get a booking by id","FAILURE","2020-12-18T15:19:25.485-03:00[America/Buenos_Aires]","0.0","1.27"
+"Booking","As a user I want to test the PUT operation to edit a booking","FAILURE","2020-12-18T15:19:26.934-03:00[America/Buenos_Aires]","0.0","1.33"
