@@ -1,6 +1,6 @@
-Feature: Exercise 2 (QAA-02) - Automation de API
+Feature: Exercise 2 (QAA-02) - Automation API
 
-  Scenario: As a user I want to test the POST operation on verb
+  Scenario: As a user I want to test the POST operation
 
   Scenario: As a user I want to test the POST operation on JsonPlaceHolder
     When I trigger POST call to create a new post

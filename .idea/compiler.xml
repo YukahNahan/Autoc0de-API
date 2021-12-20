@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Serenic0de-API" />
+        <module name="Autoc0de-API" />
       </profile>
     </annotationProcessing>
   </component>
